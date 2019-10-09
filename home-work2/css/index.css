@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #e2e7ec;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+p{
+    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: 500;
+}
+h1{
+    line-height: 1.2;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+h1, h2, .loading{
+    text-transform: uppercase;
+}
+.flex{
+    display: flex;
+    padding-top: 30px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.flex-unit{
+    background-color: #fff;
+    margin-top: 18px;
+    width: 32%;
+}
+h2{
+    margin-bottom: 40px;
+}
+.first{
+    align-items: flex-end;
+    display: flex;
+    width: 66%;
+    background-image: url("../images/image-car.jpg");
+    background-size: cover;
+}
+.text-first{
+    padding: 0 0 20px 20px;
+    color: #fff;
+}
+#third-image{
+    margin-bottom: 35px;
+}
+img{
+    margin-bottom: 15px;
+    width: 100%;
+}
+.unit-text{
+    padding-left: 20px;
+}
+.unit-text p{
+    color: #818181;
+}
+.unit-text h2{
+    line-height: 1.6;
+    font-weight: 700;
+    font-size: 16px;
+    color: #1d1d1d;
+}
+h1 span{
+    font-size: 26px;
+    line-height: 0;
+}
+h2 span{
+    font-size: 16px;
+}
+span{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 11px;
+}
+a img{
+    margin-bottom: 20px;
+    width: 40px;
+}
+.loading{
+    margin-bottom: 60px;
+    position: relative;
+    padding-left: 60px;
+    text-align: center;
+    color: #99a5b0;
+}
+.loading:after{
+    position: absolute;
+    content: "";
+    background-image: url(../images/image-loading.png);
+    width: 22px;
+    background-size: cover;
+    height: 21px;
+    bottom: calc(50% - 10px);
+    left: 44%;
+}
